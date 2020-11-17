@@ -20,7 +20,7 @@ func GetAbsPath(relativePath string) string {
 	}
 	//兼容go run main.go模式，请在开发模式下使用，生产环境打包请注释掉
 	//if gin.Mode() == gin.DebugMode {
-		path, _ = os.Getwd()
+		//path, _ = os.Getwd()
 	//}
 	return filepath.Join(path, relativePath)
 }
