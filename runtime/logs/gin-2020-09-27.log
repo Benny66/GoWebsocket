@@ -1,0 +1,20 @@
+[LOG] 11:43:02.7112588 D:/go workspace/visualAlarmBroadcast/common/ws/ws.go:239 
+ conn ws success  ws://127.0.0.1:8080/echo?token=1242rsdfsdf 
+[LOG] 11:43:03.7088212 D:/go workspace/visualAlarmBroadcast/common/ws/ws.go:189 
+ send msg to :  ws://127.0.0.1:8080/echo?token=1242rsdfsdf  data:  {"type":"subscribe","data":"/1000"} 
+[LOG] 11:43:03.7137716 D:/go workspace/visualAlarmBroadcast/common/ws/ws.go:248 
+ receive msg11:  {"data":1212,"type":"monitorAlarm"} 
+[LOG] 11:43:03.7157691 D:/go workspace/visualAlarmBroadcast/common/ws/ws.go:200 
+ ch receive msg:  {"data":1212,"type":"monitorAlarm"} 
+[LOG] 11:43:12.6898533 D:/go workspace/visualAlarmBroadcast/common/ws/ws.go:189 
+ send msg to :  ws://127.0.0.1:8080/echo?token=1242rsdfsdf  data:  {"type":"heartbeat","data":1601178192688} 
+[LOG] 11:43:12.6928496 D:/go workspace/visualAlarmBroadcast/common/ws/ws.go:248 
+ receive msg11:  {"data":"ok","type":"heartbeat"} 
+[LOG] 11:43:12.6938438 D:/go workspace/visualAlarmBroadcast/common/ws/ws.go:200 
+ ch receive msg:  {"data":"ok","type":"heartbeat"} 
+[LOG] 11:43:22.6875253 D:/go workspace/visualAlarmBroadcast/common/ws/ws.go:189 
+ send msg to :  ws://127.0.0.1:8080/echo?token=1242rsdfsdf  data:  {"type":"heartbeat","data":1601178202687} 
+[LOG] 11:43:22.6904866 D:/go workspace/visualAlarmBroadcast/common/ws/ws.go:248 
+ receive msg11:  {"data":"ok","type":"heartbeat"} 
+[LOG] 11:43:22.6904866 D:/go workspace/visualAlarmBroadcast/common/ws/ws.go:200 
+ ch receive msg:  {"data":"ok","type":"heartbeat"} 
