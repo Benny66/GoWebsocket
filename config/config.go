@@ -35,7 +35,7 @@ func LoadENV() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	if v := os.Getenv("http.HttpHost"); v != "" {
+	if v := os.Getenv("HttpHost"); v != "" {
 		Cfg.HttpHost = v
 	}
 	if v := os.Getenv("HttpPort"); v != "" {
